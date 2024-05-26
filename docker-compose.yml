@@ -1,0 +1,7 @@
+services:
+  s_app:
+    build:
+      context: .
+    container_name: c_app
+    ports:
+      - "8080:8080"
